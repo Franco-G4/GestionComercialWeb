@@ -17,7 +17,7 @@ from django.http import HttpResponse
 #vista inicial.
 class home(TemplateView):
     template_name = 'General/index.html'
-
+#CRUD CON VISTAS BASADAS EN CLASES
 # class ProductosListado(ListView): 
 #     model = Productos
 #     template_name = 'general/productos.html'

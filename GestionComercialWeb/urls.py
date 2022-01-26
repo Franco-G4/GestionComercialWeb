@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('General.urls')),
     # crud de productos
     path('Productos', include('Productos.urls')),
+    path('Proveedores', include('Proveedores.urls')),
 ]
