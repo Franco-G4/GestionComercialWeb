@@ -22,6 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('General.urls')),
     # crud de productos
-    path('Productos', include('Productos.urls')),
-    path('Proveedores', include('Proveedores.urls')),
+    path('Productos/', include('Productos.urls')),
+    path('Proveedores/', include('Proveedores.urls')),
 ]

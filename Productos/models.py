@@ -37,3 +37,6 @@ class Categorias(models.Model):
 class Marca(models.Model):
     idmarca = models.IntegerField(primary_key=True)
     nombre = models.CharField(max_length=150, blank=True, null=True)
+
+    def __str__(self):
+        return self.nombre
